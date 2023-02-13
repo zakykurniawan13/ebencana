@@ -1,0 +1,7 @@
+.content-wrapper{
+    display: flex;
+    flex: 1;
+  flex-direction: column;
+  padding: 70px;
+  background-color: white;
+}
