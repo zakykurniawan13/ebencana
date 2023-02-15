@@ -5,3 +5,48 @@
   padding: 70px;
   background-color: white;
 }
+.content-wrapper-button{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.content-wrapper-button-left{
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1; 
+  margin: 0 30px;
+  padding: 8px 40px;
+  cursor: pointer;
+  background-color: #063970;
+  border-radius: 15px;
+  color: white;
+}
+.content-wrapper-button-right{
+  font-size: 24px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1; 
+    margin: 0 30px;
+    padding: 8px 40px;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 15px;
+    color: white;
+}
+.content-wrapper-welcome{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.content-wrapper-welcome-text{
+  align-self: center;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1;
+  margin: 0 30px;
+  padding: 8px 40px;
+  border-radius: 30px;
+  color: black;
+}
