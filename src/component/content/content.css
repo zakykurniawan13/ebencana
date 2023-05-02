@@ -1,14 +1,24 @@
 .content-wrapper{
-    display: flex;
-    flex: 1;
+  display: flex;
+  flex: 1;
   flex-direction: column;
-  padding: 70px;
   background-color: white;
+}
+.headerImg {
+  height: 100vh;
+  object-fit: cover;
+}
+.image-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .content-wrapper-button{
   display: flex;
   flex: 1;
   flex-direction: row;
+  justify-content: center;
 }
 .content-wrapper-button-left{
   font-size: 24px;
@@ -21,6 +31,7 @@
   background-color: #063970;
   border-radius: 15px;
   color: white;
+  text-decoration: none;
 }
 .content-wrapper-button-right{
   font-size: 24px;
@@ -38,6 +49,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  margin-top: 40px;
 }
 .content-wrapper-welcome-text{
   align-self: center;
@@ -45,8 +57,46 @@
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   word-spacing: 1;
-  margin: 0 30px;
+  margin: 0 10px;
   padding: 8px 40px;
   border-radius: 30px;
-  color: black;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px black;
+}
+.form-wrapper-title{
+  align-self: center;
+}
+.form-wrapper-title-down{
+  justify-content: center;
+}
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 10rem;
+  
+}
+.form-wrapper-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form-label{
+  margin-bottom: 5px;
+}
+.form-input {
+  padding: 7px 5px;
+}
+.btn-send {
+  font-size: 18px;
+  align-self: center;
+  cursor: pointer;
+  background-color: #063970;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

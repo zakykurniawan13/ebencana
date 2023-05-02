@@ -1,17 +1,17 @@
-.footer-wrapper{
-    display: flex;
+.footer-wrapper {
+  display: flex;
   flex-direction: column;
   padding: 50px;
   background-color: #063970;
 }
-.footer-text{
+.footer-text {
   align-self: center;
   font-size: 24px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 1; 
-    margin: 0 30px;
-    padding: 8px 40px;
-    border-radius: 30px;
-    color: white;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1;
+  margin: 0 30px;
+  padding: 8px 40px;
+  border-radius: 30px;
+  color: white;
 }

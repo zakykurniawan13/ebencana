@@ -1,0 +1,6 @@
+.petunjuk-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 650px;
+}
