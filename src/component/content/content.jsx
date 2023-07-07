@@ -2,58 +2,93 @@ import "./content.css";
 
 import React, { useRef, useState } from "react";
 
-import ampera from "../../assets/ampera.jpg";
+import bbwss from "../../assets/bbwss.jpg";
 import emailjs from "@emailjs/browser";
+import karikatur from "../../assets/karikatur.png"
 import { useNavigate } from "react-router-dom";
 
 export const Content = () => {
-  const form = useRef();
+  // const form = useRef();
   let navigate = useNavigate();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_qlapca8",
-        "template_7lbdctt",
-        form.current,
-        "Th0vGbLxyxseyaRfl"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          navigate("/successPage");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_qlapca8",
+  //       "template_7lbdctt",
+  //       form.current,
+  //       "Th0vGbLxyxseyaRfl"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         navigate("/successPage");
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <div className="content-wrapper">
-      <img src={ampera} alt="Ampera" className="headerImg" />
+      <img src={bbwss} alt="Ampera" className="headerImg" />
       <div className="image-wrapper">
-        <div className="content-wrapper-button">
-          <a className="content-wrapper-button-left" href="#form">
-            Mulai
-          </a>
-          <div className="content-wrapper-button-right" onClick={() => navigate("/foto")} >Petunjuk</div>
-        </div>
-
         <div className="content-wrapper-welcome">
+        <img src={karikatur} alt="Karikatur" className="karikaturImg" />
           <div className="content-wrapper-welcome-text"> Selamat Datang di</div>
-          <div className="content-wrapper-welcome-text">
-            {" "}
-            Layanan Umum Pelaporan E-Bencana WS MSBL
-          </div>
+          <div className="content-wrapper-welcome-text"> LAPOR MANG</div>
           <div className="content-wrapper-welcome-text">
             {" "}
             Balai Besar Wilayah Sungai Sumatera VIII
           </div>
         </div>
       </div>
-      <form ref={form} onSubmit={sendEmail}>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="content-wrapper-button">
+        <a className="content-wrapper-button-left" href="/form1">
+          Aset
+        </a>
+        <a className="content-wrapper-button-left" href="/form2">
+          Pengaduan LSM
+        </a>
+        <a className="content-wrapper-button-left" href="/form3">
+          Pengaduan Terkait PBJ
+        </a>
+        <a className="content-wrapper-button-left" href="/form4">
+          Bencana
+        </a>
+        <a className="content-wrapper-button-left" href="/form5">
+          Pengaduan Pelayanan Publik
+        </a>
+      </div>
+      <br />
+      {/* <div className="content-wrapper-button">
+        
+      </div> */}
+      <br />
+      {/* <div className="content-wrapper-button">
+        <div
+          className="content-wrapper-button-right"
+          onClick={() => navigate("/foto")}
+        >
+          Petunjuk
+        </div>
+      </div> */}
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+     
+      {/* <form ref={form} onSubmit={sendEmail}>
         <div className="form-wrapper" id="form">
           <div className="form-wrapper-title">
           <div style={{fontSize: "30px", fontWeight: "bold"}}>FORMULIR LAPORAN E-BENCANA</div>
@@ -175,7 +210,7 @@ export const Content = () => {
 
           <input className="btn-send" type="submit" value="Kirim Data" />
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

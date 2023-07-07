@@ -1,12 +1,12 @@
 import './foto.css'
 
 import React from 'react'
-import fotoPetunjuk from "../../assets/SopEbencana.jpg"
+import fotoSop from "../../assets/SopEbencana.jpg"
 
 export const Foto = () => {
   return (
     <div className="petunjuk-wrapper">
-        <img className="petunjuk-img" src={fotoPetunjuk}/>
+        <img className="petunjuk-img" src={fotoSop}/>
     </div>
     
   )
