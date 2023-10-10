@@ -1,11 +1,11 @@
 import { Link, Route, Routes, useHref, useNavigate } from "react-router-dom";
 
 import { App } from "./app";
-import Form1 from "./pages/form1/Form1";
-import Form2 from "./pages/form2/Form2";
-import Form3 from "./pages/form3/Form3";
-import Form4 from "./pages/form4/Form4";
-import Form5 from "./pages/form5/Form5";
+import Form1 from "./pages/form1/form1";
+import Form2 from "./pages/form2/form2";
+import Form3 from "./pages/form3/form3";
+import Form4 from "./pages/form4/form4";
+import Form5 from "./pages/form5/form5";
 import { Foto } from "./component/image/foto";
 import React from "react";
 import { SuccessPage } from "./SuccessPage";

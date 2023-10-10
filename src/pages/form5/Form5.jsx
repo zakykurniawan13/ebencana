@@ -110,7 +110,7 @@ const Form5 = () => {
           </div>
 
           <div className="form-wrapper-child">
-            <label className="form-label">Foto Kejadian Bencana</label>
+            <label className="form-label">Upload File Pendukung</label>
             <input
               className="form-input"
               type="file"

@@ -47,10 +47,10 @@ const Form2 = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-wrapper" id="form">
           <div className="form-wrapper-title">
-            <div style={{ fontSize: "30px", fontWeight: "bold" }}>
+            <div className="form-wrapper-title-main">
               FORMULIR LAPOR MANG
             </div>
-            <div>Silahkan masukan data anda disini</div>
+            <div className="form-wrapper-title-main-label">Silahkan masukan data anda disini</div>
           </div>
 
           <div className="form-wrapper-child">
@@ -110,7 +110,7 @@ const Form2 = () => {
           </div>
 
           <div className="form-wrapper-child">
-            <label className="form-label">Foto Kejadian Bencana</label>
+            <label className="form-label">Upload File Pendukung</label>
             <input
               className="form-input"
               type="file"

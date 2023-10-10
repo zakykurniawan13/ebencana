@@ -43,6 +43,17 @@ export const SuccessPage = () => {
       <br/>
       <br/>
       <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Footer/>
     </div>
   
