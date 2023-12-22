@@ -1,0 +1,50 @@
+
+@media only screen and (max-width: 456px) {
+    .form-wrapper-title-main{
+        font-size:25px;
+        margin-left: 300px;
+        width: 285  px;
+        
+    }
+    .form-wrapper-title-main-label{
+        font-size:15px;
+        margin-left: 300px;
+        width: 290px;
+        
+    }
+    .form-wrapper-child{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 220%;
+        
+    }
+    .form-label{
+        width: 100%;
+    }
+    .form-wrapper{
+        margin: 0;
+        width: 40%;
+    }
+    .btn-send{
+        margin-left: 280px;
+    }
+    .form-input-file{
+        margin-top: 10px;
+        margin-right: -40px;
+        
+        
+    }
+    .label-file{
+        margin-top: 100px;
+        width: 800px;
+    }
+    
+    
+    .form-wrapper-child-input{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+}

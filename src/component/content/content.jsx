@@ -2,7 +2,7 @@ import "./content.css";
 
 import React, { useRef, useState } from "react";
 
-import bbwss from "../../assets/bbwss.png";
+import bbwss from "../../assets/bbwss.jpg";
 import emailjs from "@emailjs/browser";
 import karikatur from "../../assets/karikatur.png";
 import { useNavigate } from "react-router-dom";

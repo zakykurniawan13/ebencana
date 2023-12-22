@@ -100,7 +100,7 @@ const Form1 = () => {
 
           <div className="form-wrapper-child">
             <label className="form-label">
-              Lokasi Kejadian Pelaporan Aset *Mohon isi dengan detail
+              Lokasi Kejadian Pelaporan Aset
             </label>
             <textarea
               className="form-input"
@@ -111,7 +111,7 @@ const Form1 = () => {
             />
           </div>
 
-          <div className="form-wrapper-child">
+          <div className="form-wrapper-child-input">
             <label className="form-label">Upload File Pendukung</label>
             <input
               className="form-input"
@@ -135,7 +135,7 @@ const Form1 = () => {
               // required
               // name="my_file"
             />
-            <div
+            <div 
               style={{
                 fontSize: 9,
                 color: "red",
@@ -150,7 +150,7 @@ const Form1 = () => {
               // required
               // name="my_file"
             />
-            <div
+            <div 
               style={{
                 fontSize: 9,
                 color: "red",
@@ -165,7 +165,7 @@ const Form1 = () => {
               // required
               // name="my_file"
             />
-            <div
+            <div 
               style={{
                 fontSize: 9,
                 color: "red",

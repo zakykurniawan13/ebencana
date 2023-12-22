@@ -1,3 +1,5 @@
+import './form3.css'
+
 import React, { useRef } from "react";
 
 import { Footer } from "../../component/footer/footer";
@@ -47,10 +49,10 @@ const Form3 = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-wrapper" id="form">
           <div className="form-wrapper-title">
-            <div style={{ fontSize: "30px", fontWeight: "bold" }}>
+            <div className="form-wrapper-title-main">
               FORMULIR LAPOR MANG
             </div>
-            <div>Silahkan masukan data anda disini</div>
+            <div className="form-wrapper-title-main-label">Silahkan masukan data anda disini</div>
           </div>
 
           <div className="form-wrapper-child">
@@ -109,7 +111,7 @@ const Form3 = () => {
             />
           </div>
 
-          <div className="form-wrapper-child">
+          <div className="form-wrapper-child-input">
             <label className="form-label">Upload File Pendukung</label>
             <input
               className="form-input"

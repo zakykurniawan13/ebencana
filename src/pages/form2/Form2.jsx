@@ -1,3 +1,5 @@
+import './form2.css'
+
 import React, { useRef } from "react";
 
 import {Footer} from '../../component/footer/footer'
@@ -109,7 +111,7 @@ const Form2 = () => {
             />
           </div>
 
-          <div className="form-wrapper-child">
+          <div className="form-wrapper-child-input">
             <label className="form-label">Upload File Pendukung</label>
             <input
               className="form-input"
